@@ -10,7 +10,7 @@ var closePort = function() {
 }
 
 var openPort = function() {
-    input.openPort(0);
+    input.openPort(1);
 }
 
 function createFriendlyMessage(message, type) {
