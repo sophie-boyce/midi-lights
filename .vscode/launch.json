@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/midiFilterTest.js",
+            "program": "${workspaceRoot}/lightSimulatorTest.js",
             "cwd": "${workspaceRoot}"
         },
         {
