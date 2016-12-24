@@ -16,7 +16,7 @@ var openPort = function() {
 function createFriendlyMessage(message, type) {
     return {
         messageType: type,
-        note: message[1] - 21,
+        note: message[1] - 21, //This should be a number 0-87 that maps to the 88 keys on a piano
         velocity: message[2]
     };
 }
